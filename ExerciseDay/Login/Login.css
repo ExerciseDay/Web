@@ -1,0 +1,149 @@
+nav{
+    font-size: 13pt;
+    font-family: 'PT Sans', Arial, Sans-serif;
+    position: relative;
+  }
+  
+  nav ul{
+    padding: 0;
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  nav a{
+    line-height: 50px;
+    height: 50px;
+  }
+  
+  nav li a{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+
+  img {
+    float:left;
+    margin-left:10px;
+    width: 160px;
+    height: 42px;
+  }
+  
+  nav li:last-child a{
+    border-right: 0;
+      }
+  
+  nav a#pull{
+    display: none;
+  }
+    
+  html {
+  -webkit-touch-callout:none;
+  -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+  }
+  
+  ul{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    text-align: right;
+  }
+  
+  li{
+    display: inline-block;
+  }
+  
+  li a{
+    color: #000000;
+    text-align: center;
+    padding: 14.5px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover{
+    color: #1651c8;
+    font-weight:normal;
+  }
+  
+  .menu {
+    width: 5000px;
+    height: 50px;
+    text-align: center;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .login_container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 1450px;
+    height: 600px;
+    position: absolute;
+    margin-top: 100px;
+  }
+
+  .login_wrapper{
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #DBDBDB;
+}
+
+
+.login_form{
+    display:flex;
+    flex-direction: column;
+    width:280px;
+    margin-top:10px;
+}
+
+.login_text{
+    width:100%;
+    height:40px;
+    margin: 3px 0 3px 0 ;
+    padding: 0 10px 0 10px;
+    background-color:#FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+
+.login_text:focus{
+    outline: 1px solid #a8a8a8;
+}
+
+.login_text::placeholder{
+    color:#8E8E8E;
+}
+
+.login_text::value{
+    color:#262626;
+}
+
+.login_btn{
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:33px;
+    margin: 10px 0 5px 0;
+    color:white;
+    background-color: #C0DFFD;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login_new{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color:#01376A;
+    font-size: 13px;
+}
