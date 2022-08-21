@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>하루운동</title>
+  <link rel="stylesheet" href="haru.css">
+  <link rel="icon" href="logo simbol.png">
+</head>
+<body topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0" style="background-color:#F6F6F6">
+
+  <div class="menu" >
+    <nav class="clearfix">
+      <ul class="clearfix">
+        <img id= "logo" src="FirstLogo.png" herf="haru.html">
+        <li><a href="">회사소개</a></li>
+        <li><a href="">고객센터</a></li>
+        /* 수정 */
+        <li><a href="" onclick="showPopup()">제휴문의</a></li>
+    </ul>
+    <a id="pull" href="#"></a>
+  </nav>
+  </div>
+
+  /* 수정 */
+  <div id="popup" class="hide" data-backdrop="static" >
+    <div class="content">
+      <p id="popupName">제휴문의</p>
+      <p>고객문의 또는 입점 제휴 관련 문의는<br>
+          1234@haruwoundong.com으로 문의주시면<br>
+          상세히 안내드리겠습니다.</p>
+      <button id ="popupButton" onclick="closePopup()">닫기</button>
+    </div>
+  </div>
+  
+/* 수정 */
+  <script src="haru.js"></script>
+</body>
+</html>
