@@ -1,0 +1,585 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav{
+  font-family: 'Pretendard-Regular';
+}
+
+nav ul{
+  padding: 0;
+  margin: 0 auto;
+  width: auto;
+  position: relative;
+}
+
+#clearfix {
+  margin-right: 84px;
+}
+
+nav a{
+  line-height: 64px;
+  height: 64px;
+}
+
+nav li a{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+nav li:last-child a{
+  border-right: 0;
+    }
+
+nav a#pull{
+  display: none;
+}
+  
+html {
+-webkit-touch-callout:none;
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.778);
+  text-align: right;
+}
+
+li{
+  display: inline-block;
+}
+
+li a{
+  color: #000000;
+  text-align: center;
+  margin-right: 33px;
+  text-decoration: none;
+}
+
+li a:hover{
+  color: #FE395D;
+  font-weight:normal;
+}
+
+#logo {
+  float: left;
+  margin-top: 5px;
+}
+
+.menu {
+  width: 5000px;
+  height: 500px;
+  text-align: center;
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+}
+
+body {
+  margin: 0;
+  background: #EEE;
+  user-select: none;
+  font-family: sans-serif;
+}
+
+.bodycontainer1{
+/* Rectangle 94 */
+
+
+position: absolute;
+width: 1550px;
+height: 700px;
+left: 0px;
+top: 144px;
+
+/* 그레이스케일/200 */
+
+background: #f6f6f6;
+
+
+
+}
+
+
+#Group155{
+position: absolute;
+width: 612px;
+height: 304px;
+left: 480px;
+top: 200px;
+
+}
+
+#Group111{
+  position: absolute;
+width: 190px;
+height: 97px;
+left: 680px;
+top: 550px;
+}
+
+.bodycontainer2{
+  /* Rectangle 93 */
+
+
+position: absolute;
+width: 1550px;
+height: 700px;
+left: 0px;
+top: 844px;
+
+/* 그레이스케일/50 */
+
+background: #FFFFFF;
+
+}
+
+
+
+#Rectangle173{
+  /* Rectangle 173 */
+
+
+position: absolute;
+width: 295px;
+height: 271px;
+left: 100px;
+top: 300px;
+
+background: #FFEBEE;
+border-radius: 40px;
+}
+
+#Avater{
+  position: absolute;
+width: 160px;
+height: 164px;
+left: 172px;
+top: 270px;
+
+background: url(.png);
+}
+#Frame217{
+/* Frame 217 */
+
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px;
+gap: 10px;
+
+position: absolute;
+width: 260px;
+height: 100px;
+left: 100px;
+top: 450px;
+
+/* 프라이머리 컬러/hearty pink */
+
+background: #FE395D;
+box-shadow: 0px 10px 27px rgba(254, 57, 93, 0.31);
+border-radius: 18px;
+
+}
+
+#text1{
+  position: absolute;
+width: 631px;
+height: 52px;
+left: 459px;
+top: 100px;
+
+
+/* 그레이스케일/950 */
+
+color: #121212;
+}
+
+
+#girl1{
+  position: absolute;
+  width: 160px;
+  height: 164px;
+  left: 520px;
+  top: 250px;
+  
+  background: url(b5f0ceb7c6cb87c7106fc5756d95c30e-sticker.png);
+}
+
+#Rectangle174{
+  position: absolute;
+width: 295px;
+height: 271px;
+left: 460px;
+top: 300px;
+
+background: #FFEBEE;
+border-radius: 40px;
+}
+
+#Frame218{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px;
+gap: 10px;
+
+position: absolute;
+width: 260px;
+height: 100px;
+left: 460px;
+top: 450px;
+
+/* 프라이머리 컬러/hearty pink */
+
+background: #FE395D;
+box-shadow: 0px 10px 27px rgba(254, 57, 93, 0.31);
+border-radius: 18px;
+}
+
+#Rectangle175{
+  /* Rectangle 175 */
+
+
+position: absolute;
+width: 295px;
+height: 271px;
+left: 830px;
+top: 300px;
+
+background: #FFEBEE;
+border-radius: 40px;
+}
+
+#image34{
+  /* image 34 */
+
+
+position: absolute;
+width: 208px;
+height: 207px;
+left: 865px;
+top: 250px;
+
+background: url(image.png);
+}
+
+#Frame219{
+  /* Frame 219 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px;
+gap: 10px;
+
+position: absolute;
+width: 260px;
+height: 100px;
+left: 830px;
+top: 450px;
+
+/* 프라이머리 컬러/hearty pink */
+
+background: #FE395D;
+box-shadow: 0px 10px 27px rgba(254, 57, 93, 0.31);
+border-radius: 18px;
+}
+
+#Rectangle176{
+  position: absolute;
+width: 295px;
+height: 271px;
+left: 1180px;
+top: 300px;
+
+background: #FFEBEE;
+border-radius: 40px;
+}
+
+#image33{
+  /* image 33 */
+  position: absolute;
+  width: 208px;
+  height: 207px;
+  left: 1250px;
+  top: 265px;
+  
+  background: url(image.png);
+  }
+
+#Frame220{
+  /* Frame 220 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px;
+gap: 10px;
+
+position: absolute;
+width: 260px;
+height: 100px;
+left: 1175px;
+top: 450px;
+
+/* 프라이머리 컬러/hearty pink */
+
+background: #FE395D;
+box-shadow: 0px 10px 27px rgba(254, 57, 93, 0.31);
+border-radius: 18px;
+}
+
+.bodycontainer3{
+  /* Rectangle 92 */
+
+
+position: absolute;
+width: 1550px;
+height: 700px;
+left: 0px;
+top: 844px;
+
+/* 그레이스케일/200 */
+
+background: #f6f6f6;
+}
+
+#cutphoto{
+
+
+  position: absolute;
+  width: 0px;
+  height: 1654px;
+  left: 143px;
+  top: 0px;
+
+
+}
+
+#text2{
+  position: absolute;
+width: 439px;
+height: 156px;
+left: 901px;
+top: 1px;
+
+}
+
+#text3{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 327px;
+height: 30px;
+left: 1013px;
+top: 240px;
+}
+
+.bodycontainer4{
+position: absolute;
+width: 1550px;
+height: 705px;
+left: 0px;
+top: 2244px;
+
+/* 그레이스케일/50 */
+
+background: #FFFFFF;
+}
+
+#text4{
+
+  /* PT는 너무 비싸서 매번 혼자 운동하려니, 오늘은 뭘 해야할지 모르겠네... */
+
+
+position: absolute;
+width: 501px;
+height: 156px;
+left: 100px;
+top: 220px;
+
+
+}
+
+#text5{
+
+  position: absolute;
+  width: 501px;
+  height: 156px;
+  left: 100px;
+  top: 420px; 
+
+}
+
+#image44{
+  /* image 44 */
+
+
+position: absolute;
+width: 221px;
+height: 476px;
+left: 636px;
+top: 137px;
+
+background: url(image.png);
+}
+
+#image45{
+
+  position: absolute;
+width: 229px;
+height: 499px;
+left: 869px;
+top: 67px;
+
+}
+
+#image46{
+
+  /* image 46 */
+
+
+position: absolute;
+width: 231px;
+height: 499px;
+left: 1109px;
+top: 137px;
+
+background: url(image.png);
+
+}
+
+.footerbody{
+  position: absolute;
+width: 1550px;
+height: 350px;
+left: 0px;
+top: 4780px;
+
+/* 그레이스케일/900 */
+
+background: #3A3D40;
+}
+
+#footer1{
+  position: absolute;
+  width: 40px;
+  height: 23px;
+  left: 93px;
+  top: 37px;
+
+}
+
+#footer2{
+  position: absolute;
+  width: 40px;
+  height: 23px;
+  left: 209px;
+  top: 37px;
+  
+}
+
+#footer3{
+  position: absolute;
+  width: 40px;
+  height: 23px;
+  left: 330px;
+  top: 37px;
+  
+}
+
+#footer4{
+  position: absolute;
+  width: 40px;
+  height: 23px;
+  left: 451px;
+  top: 37px;
+  
+}
+
+#footer5{
+  position: absolute;
+  width: 40px;
+  height: 23px;
+  left: 93px;
+  top: 69px;
+}
+
+#footer6{
+  
+  position: absolute;
+  width: 40px;
+  height: 23px;
+  left: 209px;
+  top: 69px
+  
+}
+
+#footer7{
+  position: absolute;
+  width: 40px;
+  height: 23px;
+  left: 330px;
+  top: 69px;
+}
+
+#footer8{
+  position: absolute;
+  width: 40px;
+  height: 23px;
+  left: 451px;
+  top: 69px;
+  
+}
+
+#footer9{
+  position: absolute;
+  width: 40px;
+  height: 23px;
+  left: 93px;
+  top: 200px;
+  
+}
+
+#footer10{
+  position: absolute;
+  width: 40px;
+  height: 23px;
+  left: 93px;
+  top: 227px;
+  
+}
+
+#footer11{
+  position: absolute;
+  width: 40px;
+  height: 23px;
+  left: 1250px;
+  top: 210px;
+  
+}
