@@ -1,0 +1,434 @@
+/* Pretendard 폰트 적용해놓았습니다
+font-family: 'Pretendard-Regular';으로 사용하시면 돼요! */
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav{
+  font-family: 'Pretendard-Regular';
+}
+
+nav ul{
+  padding: 0;
+  margin: 0 auto;
+  width: auto;
+  position: relative;
+}
+
+#clearfix {
+  margin-right: 84px;
+}
+
+nav a{
+  line-height: 64px;
+  height: 64px;
+}
+
+nav li a{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+nav li:last-child a{
+  border-right: 0;
+    }
+
+nav a#pull{
+  display: none;
+}
+  
+html {
+-webkit-touch-callout:none;
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.778);
+  text-align: right;
+}
+
+li{
+  display: inline-block;
+}
+
+li a{
+  color: #000000;
+  text-align: center;
+  margin-right: 33px;
+  text-decoration: none;
+}
+
+li a:hover{
+  color: #FE395D;
+  font-weight:normal;
+}
+
+#logo {
+  float: left;
+  margin-top: 5px;
+}
+
+.menu {
+  width: 5000px;
+  height: 500px;
+  text-align: center;
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+}
+
+body {
+  margin: 0;
+  background: #EEE;
+  user-select: none;
+  font-family: sans-serif;
+}
+
+#secondcontainer1img{
+  /* Rectangle 99 */
+
+width: 1550px;
+height: 70px;
+left: 0px;
+top: 30px;
+
+/* 그레이스케일/200 */
+
+background: #F8F8F8;
+ 
+}
+
+#secondtext1{
+  /* 이제 하루운동으로 헬스장을 탐색해보세요 */
+
+
+position: absolute;
+width: 358px;
+height: 32px;
+left: 596px;
+top: 160px;
+
+}
+
+.secondcontainer2{
+  /* Rectangle 94 */
+
+
+position: absolute;
+width: 1550px;
+height: 700px;
+left: 0px;
+top: 302px;
+
+/* 그레이스케일/50 */
+
+background: #FFFFFF;
+}
+
+#secondtext2{
+/* 대학가 주변 위주로 */  
+position: absolute;
+width: 310px;
+height: 52px;
+left: 620px;
+top: 66px;
+
+}
+
+#secondtext3{
+/* 우리 대학가 주변에서 나에게 가장 적합한 헬스장은 어디인지 알아보며 헬스장 위치를 파악할 수 있어요. */
+
+
+position: absolute;
+width: 595px;
+height: 64px;
+left: 478px;
+top: 142px;
+
+  
+}
+
+#image48{
+  /* image 48 */
+
+
+position: absolute;
+width: 316px;
+height: 686px;
+left: 400px;
+top: 250px;
+}
+
+#image41{
+  /* image 41 */
+
+
+position: absolute;
+width: 377px;
+height: 45px;
+left: 736px;
+top: 250px;
+
+}
+
+#image50{
+  /* image 50 */
+
+
+position: absolute;
+width: 377px;
+height: 384px;
+left: 736px;
+top: 305px;
+
+}
+
+
+
+#secondcontext4{
+  /* 빠르게 알아보는 헬스장 정보 */
+
+
+position: absolute;
+width: 465px;
+height: 52px;
+left: 540px;
+top: 800px;
+
+}
+
+#secondcontext5{
+  /* 헬스장 운영시간과 이용정보는 물론, 가격과 시설까지 한눈에 비교할 수 있어 여기저기 발품파는 시간을 줄여줘요. */
+
+
+position: absolute;
+width: 644px;
+height: 64px;
+left: 450px;
+top: 900px;
+
+}
+
+#image51{
+  /* image 51 */
+
+
+position: absolute;
+width: 316px;
+height: 684.82px;
+left: 246px;
+top: 990px;
+
+}
+
+#image52{
+  position: absolute;
+width: 316px;
+height: 710px;
+left: 582px;
+top: 990px;
+
+
+}
+
+#image53{
+  /* image 53 */
+
+
+position: absolute;
+width: 316px;
+height: 683.9px;
+left: 918px;
+top: 990px;
+
+
+}
+
+.secondcontainer4{
+  /* Rectangle 98 */
+
+
+position: absolute;
+width: 1550px;
+height: 700px;
+left: 0px;
+top: 1450px;
+
+/* 그레이스케일/50 */
+
+background: #FFFFFF;
+}
+
+#secondcontext6{
+  /* 트레이너 */
+
+
+position: absolute;
+width: 146px;
+height: 52px;
+left: 700px;
+top: 66px;
+
+
+}
+
+#secondcontext7{
+
+  /* 나를 담당해줄 전문가인 트레이너의 이력과 소개가 올라와있어 더욱 신뢰가는 헬스를 이용할 수 있어요. */
+
+
+position: absolute;
+width: 478px;
+height: 60px;
+left: 536px;
+top: 130px;
+
+}
+
+#image54{
+  /* image 54 */
+
+
+position: absolute;
+width: 316px;
+height: 685.45px;
+left: 453px;
+top: 220px;
+
+background: url(image.png);
+
+}
+
+#image55{
+
+  /* image 55 */
+
+
+position: absolute;
+width: 316px;
+height: 684.28px;
+left: 789px;
+top: 220px;
+
+background: url(image.png);
+
+}
+
+.footerbody{
+  position: absolute;
+width: 1550px;
+height: 350px;
+left: 0px;
+top: 700px;
+
+/* 그레이스케일/900 */
+
+background: #3A3D40;
+}
+
+#footer1{
+  position: absolute;
+  width: 40px;
+  height: 23px;
+  left: 93px;
+  top: 37px;
+
+}
+
+#footer2{
+  position: absolute;
+  width: 40px;
+  height: 23px;
+  left: 209px;
+  top: 37px;
+  
+}
+
+#footer3{
+  position: absolute;
+  width: 40px;
+  height: 23px;
+  left: 330px;
+  top: 37px;
+  
+}
+
+#footer4{
+  position: absolute;
+  width: 40px;
+  height: 23px;
+  left: 451px;
+  top: 37px;
+  
+}
+
+#footer5{
+  position: absolute;
+  width: 40px;
+  height: 23px;
+  left: 93px;
+  top: 69px;
+}
+
+#footer6{
+  
+  position: absolute;
+  width: 40px;
+  height: 23px;
+  left: 209px;
+  top: 69px
+  
+}
+
+#footer7{
+  position: absolute;
+  width: 40px;
+  height: 23px;
+  left: 330px;
+  top: 69px;
+}
+
+#footer8{
+  position: absolute;
+  width: 40px;
+  height: 23px;
+  left: 451px;
+  top: 69px;
+  
+}
+
+#footer9{
+  position: absolute;
+  width: 40px;
+  height: 23px;
+  left: 93px;
+  top: 200px;
+  
+}
+
+#footer10{
+  position: absolute;
+  width: 40px;
+  height: 23px;
+  left: 93px;
+  top: 227px;
+  
+}
+
+#footer11{
+  position: absolute;
+  width: 40px;
+  height: 23px;
+  left: 1250px;
+  top: 210px;
+  
+}
